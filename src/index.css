@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-bg1: #292f36;
+  --color-bg2: #1a1e23;
+  --color-brand1: #12f7d6;
+  --color-brand2: #98faec;
+  --color-gray: #43454d;
+  --color-white: #ffffff;
+  --color-html: #e54f26;
+  --color-css: #0c73b8;
+  --color-js: #e7a020;
+  --color-react: #28a9e0;
+
+  --font-ibm: "IBM Plex Mono", monospace;
+  --font-ubuntu: "Ubuntu", sans-serif;
+
+  --breakpoint-2xs: 20rem;
+  --breakpoint-xs: 25rem;
+  --breakpoint-3xl: 100rem;
+}
+
+@layer components {
+  /* Headings */
+  .BG-Test-U {
+    @apply font-ubuntu font-normal text-[117px] leading-[134px];
+  }
+  .H1-U {
+    @apply font-ubuntu font-normal text-[64px] leading-[72px];
+  }
+  .H2-U {
+    @apply font-ubuntu font-normal text-[32px] leading-[36px];
+  }
+  .Button-U {
+    @apply font-ubuntu font-normal text-[20px] leading-[24px];
+  }
+  .Article-U {
+    @apply font-ubuntu font-light text-[16px] leading-[32px];
+  }
+  .Para-U {
+    @apply font-ubuntu font-light text-[16px] leading-[18px];
+  }
+  .Label-U-M {
+    @apply font-ubuntu font-medium text-[16px] leading-[16px];
+  }
+  .Label-U-L {
+    @apply font-ubuntu font-light text-[14px] leading-[16px];
+  }
+
+  /* IBM Plex Mono section */
+  .Number-M {
+    @apply font-ibm font-medium text-[48px] leading-[62px];
+  }
+  .H2-M {
+    @apply font-ibm font-medium text-[32px] leading-[42px];
+  }
+  .Logo-M {
+    @apply font-ibm font-medium text-[32px] leading-[42px];
+  }
+  .Menu-M {
+    @apply font-ibm font-normal text-[24px] leading-[32px];
+  }
+  .Medio-M {
+    @apply font-ibm font-normal text-[16px] leading-[20px];
+  }
+  .Para-M {
+    @apply font-ibm font-normal text-[16px] leading-[20px];
+  }
+  .Code-M {
+    @apply font-ibm font-normal text-[14px] leading-[18px];
+  }
+}
+
+.about-bg {
+  background-image: url("./about-bg.svg");
+}
+
+.skills-bg {
+  background-image: url("./skills-bg.svg");
+}
+
+.works-bg {
+  background-image: url("./works-bg.svg");
+}
