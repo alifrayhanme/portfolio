@@ -13,7 +13,7 @@ const SubHeader = ({ title, details }) => {
   return (
     <div className="flex flex-col justify-center items-center space-y-1.5">
       {/* Title */}
-      <p ref={titleRef} className="H2-U text-brand1">{title}</p>
+      <h2 ref={titleRef} className="H2-U text-brand1">{title}</h2>
 
       {/* Underline with dots */}
       <div

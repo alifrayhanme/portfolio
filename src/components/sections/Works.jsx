@@ -2,25 +2,8 @@ import { useEffect, useState } from "react";
 import { PiCursor } from "react-icons/pi";
 import SubHeader from "../ui/SubHeader";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import worksData from "../../data/worksData";
 
-// Dummy data
-const worksData = [
-  {
-    id: 1,
-    img: "./Dual-screen.png",
-    link: "https://example1.com",
-  },
-  {
-    id: 2,
-    img: "./Dual-screen.png",
-    link: "https://example1.com",
-  },
-  {
-    id: 3,
-    img: "./Dual-screen.png",
-    link: "https://example1.com",
-  },
-];
 
 const Works = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,9 +17,7 @@ const Works = () => {
   }, []);
 
   const prevSlide = () => {
-    setCurrentIndex((prev) =>
-      prev === 0 ? worksData.length - 1 : prev - 1
-    );
+    setCurrentIndex((prev) => (prev === 0 ? worksData.length - 1 : prev - 1));
   };
 
   const nextSlide = () => {

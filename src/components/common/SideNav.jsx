@@ -22,17 +22,23 @@ export const SideNav = () => {
 
     return () => observer.disconnect();
   }, []);
-
-
   
+
+  const scrollToSection = (id) => {
+    if (id === "gallery") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
   return (
     <nav className="fixed top-1/2 left-4 -translate-y-1/2 z-50 bg-bg2 rounded-full shadow-lg hidden md:flex flex-col justify-between items-center w-16 h-[376px] py-2.5 border-2 border-white">
       {sections.map(({ id, icon: Icon }) => (
         <button
           key={id}
-          onClick={() =>
-            document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })
-          }
+          onClick={() => scrollToSection(id)}
           className={`w-10 h-10 flex items-center justify-center rounded-full text-2xl transition-all duration-300 ${
             active === id
               ? "bg-white scale-110 shadow-lg"
