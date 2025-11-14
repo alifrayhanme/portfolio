@@ -20,10 +20,11 @@ const AboutMe = () => {
               <br />
               My name is Alif and I specialize in web developement that
               utilizes
-              <span className="text-brand1"> HTML</span>,
-              <span className="text-brand1"> CSS</span>,
-              <span className="text-brand1"> JS</span>, and
-              <span className="text-brand1"> REACT</span> etc. <br />
+              <span className="text-brand1"> React.js</span>,
+              <span className="text-brand1"> Next.js</span>,
+              <span className="text-brand1"> Node.js</span>,
+              <span className="text-brand1"> Express.js</span>, and
+              <span className="text-brand1"> MongoDB</span> etc. <br />
               I am a highly motivated individual and eternal optimist dedicated
               to writing clear, concise, robust code that works. Striving to
               never stop learning and improving. <br />

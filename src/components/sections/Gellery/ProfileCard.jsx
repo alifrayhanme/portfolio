@@ -21,7 +21,7 @@ const ProfileCard = () => {
         </div>
         <div>
           <h2 className="Logo-M text-white">Alif</h2>
-          <h3 className="Code-M text-white">Font-End Developer</h3>
+          <h3 className="Code-M text-white">Mern Stack Developer</h3>
         </div>
       </div>
       <div className="mt-6 space-y-4">
@@ -31,7 +31,7 @@ const ProfileCard = () => {
             href="mailto:alifrayhanme@gmail.com"
           >
             <MdOutlineEmail className="text-brand1" />
-            <p className="Code-M text-white">alifrayhanme@gmail.com</p>
+            <p className="Code-M text-white">alifrayhan401@gmail.com</p>
           </a>
         </div>
         <div>
@@ -52,7 +52,7 @@ const ProfileCard = () => {
         <div>
           <a
             className="flex items-center gap-4"
-            href="https://www.alifrayhan.com"
+            href="https://alifrayhan.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -63,14 +63,12 @@ const ProfileCard = () => {
         <div className="flex items-center gap-4"></div>
       </div>
       <div className="Code-M flex flex-wrap gap-2.5">
-        <p className="bg-brand1 px-1 rounded-lg">HTML</p>
-        <p className="bg-brand1 px-1 rounded-lg">CSS</p>
-        <p className="bg-brand1 px-1 rounded-lg">Tailwind CSS</p>
-        <p className="bg-brand1 px-1 rounded-lg">JS</p>
         <p className="bg-brand1 px-1 rounded-lg">React.js</p>
-        <p className="bg-brand1 px-1 rounded-lg">React Router</p>
         <p className="bg-brand1 px-1 rounded-lg">Next.js</p>
-        <p className="bg-brand1 px-1 rounded-lg">Firebase</p>
+        <p className="bg-brand1 px-1 rounded-lg">MongoDB</p>
+        <p className="bg-brand1 px-1 rounded-lg">Mongoose</p>
+        <p className="bg-brand1 px-1 rounded-lg">Node.js</p>
+        <p className="bg-brand1 px-1 rounded-lg">Express.js</p>
       </div>
       <a href="./Resume.pdf" download="Alif_Rayhan_CV.pdf">
         <button className="flex justify-center items-center gap-4 bg-white px-4 py-2.5 rounded-full mt-5 cursor-pointer">

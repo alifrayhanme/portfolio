@@ -1,20 +1,20 @@
-import { AiOutlineHtml5 } from "react-icons/ai";
-import { FaCss3Alt, FaReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { FiMonitor } from "react-icons/fi";
 import { IoLogoNodejs } from "react-icons/io";
-import { RiNextjsLine, RiTailwindCssFill } from "react-icons/ri";
-import { SiFirebase, SiReactrouter } from "react-icons/si";
+import { RiNextjsLine } from "react-icons/ri";
+import { SiReactrouter } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+
 import SubHeader from "../ui/SubHeader";
 
 const skillsData = [
-  { name: "HTML", icon: AiOutlineHtml5, color: "#E54F26" },
-  { name: "CSS", icon: FaCss3Alt, color: "#0C73B8" },
-  { name: "Tailwind CSS", icon: RiTailwindCssFill, color: "#0EA5E9" },
   { name: "JS", icon: IoLogoNodejs, color: "#E7A020" },
   { name: "React", icon: FaReact, color: "#28A9E0" },
   { name: "React Router", icon: SiReactrouter, color: "gray" },
-  { name: "Firebase", icon: SiFirebase, color: "#ff4a17" },
   { name: "Next.js", icon: RiNextjsLine, color: "#000000" },
+  { name: "Node.js", icon: FaNodeJs, color: "#7CBF00" },
+  {name: "MongoDB", icon: SiMongodb, color: "#4CAF50" }
 ];
 
 const Skills = () => {

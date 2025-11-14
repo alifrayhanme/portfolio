@@ -1,18 +1,18 @@
 const worksData = [
   {
     id: 1,
-    img: "./Dual-screen.png",
-    link: "https://example1.com",
+    img: "./project1.png",
+    link: "https://nexus-news-frontend-rho.vercel.app/",
   },
   {
     id: 2,
-    img: "./Dual-screen.png",
-    link: "https://example1.com",
+    img: "./project2.png",
+    link: "https://cute-speculoos-af6325.netlify.app/",
   },
   {
     id: 3,
-    img: "./Dual-screen.png",
-    link: "https://example1.com",
+    img: "./project3.png",
+    link: "https://cssprojectalif.netlify.app/",
   },
 ];
 

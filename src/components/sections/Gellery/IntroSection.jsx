@@ -9,7 +9,7 @@ const IntroSection = () => {
         <h2 className="H2-U text-white text-start pl-3">
           Hey <br /> I'm <span className="text-brand1">Alif</span>
           <br />
-          Font-End Developer
+          MERN Stack Developer
           <span className="Code-M text-brand1 pl-2">&lt;h1/&gt;</span>
         </h2>
       </div>
